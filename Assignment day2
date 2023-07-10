@@ -1,0 +1,2 @@
+create table todolist
+(task_id number primary key,task_name varchar(30),description varchar(50),is_completed varchar(5),check(is_completed in ('yes','no')));

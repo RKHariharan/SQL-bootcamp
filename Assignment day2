@@ -1,2 +1,5 @@
 create table todolist
 (task_id number primary key,task_name varchar(30),description varchar(50),is_completed varchar(5),check(is_completed in ('yes','no')));
+insert into todolist values (1,'aaa','xxx','Yes');
+insert into todolist values (2,'bbb','yyy','No');
+insert into todolist values (3,'ccc','zzz','Yes');

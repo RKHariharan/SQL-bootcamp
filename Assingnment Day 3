@@ -1,0 +1,7 @@
+create database sales;
+use sales;
+create table orders (order_id number,customer_id number,order_date date,order_total decimal(10,3));
+insert into orders values(1,12,'01-11-2021',12.5);
+insert into orders values(2,12,'01-11-2021',30.25);
+insert into orders values(3,15,'06-19-2021',10.56);
+insert into orders values(4,28,'02-16-2021',76.5);
